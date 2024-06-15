@@ -1,0 +1,35 @@
+batch_size: 2
+dataset:
+  type: t2spir
+  train:
+    # root_dir: data/T2SPIR/train
+    root_dir: /mnt/MJ/sam_meets_gaze/data/T2SPIR/train
+    use_embeddings: false
+    prompt_types : ["gaze_points"]
+  val:               
+    root_dir: /mnt/MJ/sam_meets_gaze/data/T2SPIR/val
+    # root_dir: data/T2SPIR/val
+    use_embeddings: false
+    prompt_types : ["gaze_points"]
+eval_interval: 5
+save_interval: 10
+model:
+  name: Model
+  checkpoint: /mnt/MJ/sam_meets_gaze/out/training/base_config_chest/abdomen.pth
+  freeze:
+    image_encoder: true
+    mask_decoder: false
+    prompt_encoder: true
+  type: vit_h
+num_devices: 1
+num_epochs: 60
+num_workers: 4
+opt:
+  decay_factor: 10
+  learning_rate: 0.0008
+  steps:
+  - 1500
+  - 4000
+  warmup_steps: 10
+  weight_decay: 0.1
+out_dir: out/training
