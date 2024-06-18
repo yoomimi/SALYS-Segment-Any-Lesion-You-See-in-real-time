@@ -1,4 +1,4 @@
-# SALYS: Segment Any Lesions You See in real time
+# SALYS: Segment Any Lesion You See in real time
 <br>
 
 ![system architecture](./system.jpg)
