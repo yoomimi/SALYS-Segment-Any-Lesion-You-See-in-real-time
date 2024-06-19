@@ -138,9 +138,9 @@ class EyeTrackerApp(QWidget):
         super().__init__()
         self.image_index = 0
         self.image_dirs = {
-            "cardiac": Path("C:/mijin/t2spir/data/cardiac/original"),
-            "chest": Path("C:/mijin/t2spir/data/chest/original"),
-            "t2spir": Path("C:/mijin/t2spir/data/t2spir/original")
+            "cardiac": Path("./data/cardiac/original"),
+            "chest": Path("./data/chest/original"),
+            "t2spir": Path("./data/t2spir/original")
         }
         self.current_dir = self.image_dirs["cardiac"] # 열면 일단 default로 cardiac
         self.image_type = "cardiac" # 열면 일단 default로 cardiac
