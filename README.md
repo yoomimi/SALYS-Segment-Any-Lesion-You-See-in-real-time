@@ -2,7 +2,7 @@
 <br>
 
 ![system architecture](./system.jpg)
-This research was Mijin Yoo's graduation research from the Department of Electrical and Electronic Engineering at Yonsei University, and was supervised by MAILAB (Medical Artificial Intelligence Laboratory) at Yonsei University.
+This research is Mijin Yoo's graduation research from the Department of Electrical and Electronic Engineering at Yonsei University, and was supervised by MAILAB (Medical Artificial Intelligence Laboratory) at Yonsei University.
 (Advisor: Prof. Dosik Hwang)
 <br>
 <br>
