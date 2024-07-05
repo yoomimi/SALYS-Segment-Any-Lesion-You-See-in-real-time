@@ -37,23 +37,3 @@ sequenceDiagram
 
 <br>
 
-#### Code Structure
-TBA..
-
-Below is a simplified structure of the codebase:
-
-```plaintext
-SALYS/
-├── client/
-│   ├── ui_display.py
-│   ├── eye_tracking.py
-│   ├── send_data.py
-│   └── config/
-│       └── imageset_config.json
-├── server/
-│   ├── model_inference.py
-│   ├── load_model.py
-│   ├── receive_data.py
-│   └── send_mask.py
-└── README.md
-```
