@@ -37,7 +37,7 @@ sequenceDiagram
 
 <br>
 
-## UI
+## UI & Results
 
 ![UI1](UI_images/UI1.jpg)
 ![UI2](UI_images/UI2.jpg)
